@@ -1,0 +1,60 @@
+# VS Code settings
+.vscode/
+
+# Virtual environment
+Virtual/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore vendored/third-party code in totals
+vendor/**          linguist-vendored
+third_party/**     linguist-vendored
+
+# Ignore generated code (protobuf, migrations, etc.)
+**/*.pb.go         linguist-generated
+**/migrations/**   linguist-generated
+
+# Treat some files as another language (rare, but possible)
+# path/to/file      linguist-language=C++
